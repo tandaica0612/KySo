@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vnpt.iLIS.SignThueXMLApp", "Vnpt.iLIS.SignThueXMLApp\Vnpt.iLIS.SignThueXMLApp.csproj", "{1747B61A-F965-44B4-859F-9DF47EEE6E51}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Vnpt.iLIS.SignThueXMLAppSetUp", "Vnpt.iLIS.SignThueXMLAppSetUp\Vnpt.iLIS.SignThueXMLAppSetUp.vdproj", "{A8E2024B-AE26-495C-8B7B-0D64FAFE33FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1747B61A-F965-44B4-859F-9DF47EEE6E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1747B61A-F965-44B4-859F-9DF47EEE6E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1747B61A-F965-44B4-859F-9DF47EEE6E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1747B61A-F965-44B4-859F-9DF47EEE6E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E2024B-AE26-495C-8B7B-0D64FAFE33FA}.Debug|Any CPU.ActiveCfg = Debug
+		{A8E2024B-AE26-495C-8B7B-0D64FAFE33FA}.Debug|Any CPU.Build.0 = Debug
+		{A8E2024B-AE26-495C-8B7B-0D64FAFE33FA}.Release|Any CPU.ActiveCfg = Release
+		{A8E2024B-AE26-495C-8B7B-0D64FAFE33FA}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD9F4400-F618-4223-AEFA-089D98BDFCC0}
+	EndGlobalSection
+EndGlobal

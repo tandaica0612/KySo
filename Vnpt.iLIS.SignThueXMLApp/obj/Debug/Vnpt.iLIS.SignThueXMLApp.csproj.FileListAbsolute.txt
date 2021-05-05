@@ -1,0 +1,75 @@
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\Vnpt.iLIS.SignThueXMLApp.exe.config
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\Vnpt.iLIS.SignThueXMLApp.exe
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\Vnpt.iLIS.SignThueXMLApp.pdb
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\DevExpress.Data.v14.1.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\DevExpress.Printing.v14.1.Core.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\DevExpress.Utils.v14.1.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\DevExpress.XtraEditors.v14.1.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\itextsharp.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\DevExpress.Sparkline.v14.1.Core.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\DevExpress.Data.v14.1.xml
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\DevExpress.Printing.v14.1.Core.xml
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\DevExpress.Utils.v14.1.xml
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\DevExpress.XtraEditors.v14.1.xml
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\itextsharp.xml
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\DevExpress.Sparkline.v14.1.Core.xml
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\de\DevExpress.Data.v14.1.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\es\DevExpress.Data.v14.1.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\ja\DevExpress.Data.v14.1.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\ru\DevExpress.Data.v14.1.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\de\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\es\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\ja\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\ru\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\de\DevExpress.Utils.v14.1.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\es\DevExpress.Utils.v14.1.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\ja\DevExpress.Utils.v14.1.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\ru\DevExpress.Utils.v14.1.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\de\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\es\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\ja\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\ru\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\bin\Debug\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.FormSignXmlThue.resources
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.Properties.Resources.resources
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.csproj.GenerateResource.cache
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.csproj.CoreCompileInputs.cache
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.csproj.CopyComplete
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.exe
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.pdb
+C:\Users\camnm\source\iLIS_Cadas_TD\BIN\Vnpt.iLIS.SignThueXMLApp.exe.config
+C:\Users\camnm\source\iLIS_Cadas_TD\BIN\Vnpt.iLIS.SignThueXMLApp.exe
+C:\Users\camnm\source\iLIS_Cadas_TD\BIN\Vnpt.iLIS.SignThueXMLApp.pdb
+C:\Users\camnm\source\iLIS_Cadas_TD\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.csprojAssemblyReference.cache
+C:\Users\camnm\source\iLIS_Cadas_TD\VNPT iLIS Cadas\1.APPLICATION\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.csprojAssemblyReference.cache
+C:\Users\camnm\source\iLIS_Cadas_TD\VNPT iLIS Cadas\1.APPLICATION\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.FormSignXmlThue.resources
+C:\Users\camnm\source\iLIS_Cadas_TD\VNPT iLIS Cadas\1.APPLICATION\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.Properties.Resources.resources
+C:\Users\camnm\source\iLIS_Cadas_TD\VNPT iLIS Cadas\1.APPLICATION\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.csproj.GenerateResource.cache
+C:\Users\camnm\source\iLIS_Cadas_TD\VNPT iLIS Cadas\1.APPLICATION\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.csproj.CoreCompileInputs.cache
+C:\Users\camnm\source\iLIS_Cadas_TD\VNPT iLIS Cadas\1.APPLICATION\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.exe
+C:\Users\camnm\source\iLIS_Cadas_TD\VNPT iLIS Cadas\1.APPLICATION\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.pdb
+C:\Users\camnm\source\iLIS_Cadas_TD\VNPT iLIS Cadas\1.APPLICATION\BIN\Vnpt.iLIS.SignThueXMLApp.exe.config
+C:\Users\camnm\source\iLIS_Cadas_TD\VNPT iLIS Cadas\1.APPLICATION\BIN\Vnpt.iLIS.SignThueXMLApp.exe
+C:\Users\camnm\source\iLIS_Cadas_TD\VNPT iLIS Cadas\1.APPLICATION\BIN\Vnpt.iLIS.SignThueXMLApp.pdb
+C:\Users\camnm\source\iLIS_Cadas_TD\VNPT iLIS Cadas\1.APPLICATION\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.csproj.CopyComplete
+F:\VNPT\APP\BIN\Vnpt.iLIS.SignThueXMLApp.exe.config
+F:\VNPT\APP\BIN\Vnpt.iLIS.SignThueXMLApp.exe
+F:\VNPT\APP\BIN\Vnpt.iLIS.SignThueXMLApp.pdb
+F:\VNPT\APP\APP\MySignApp\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.FormSignXmlThue.resources
+F:\VNPT\APP\APP\MySignApp\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.Properties.Resources.resources
+F:\VNPT\APP\APP\MySignApp\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.csproj.GenerateResource.cache
+F:\VNPT\APP\APP\MySignApp\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.csproj.CoreCompileInputs.cache
+F:\VNPT\APP\APP\MySignApp\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.csproj.CopyComplete
+F:\VNPT\APP\APP\MySignApp\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.exe
+F:\VNPT\APP\APP\MySignApp\Vnpt.iLIS.SignThueXMLApp\obj\Debug\Vnpt.iLIS.SignThueXMLApp.pdb
+F:\VNPT\APP\APP\MySignApp\Vnpt.iLIS.SignThueXMLApp.exe.config
+F:\VNPT\APP\APP\MySignApp\Vnpt.iLIS.SignThueXMLApp.exe
+F:\VNPT\APP\APP\MySignApp\Vnpt.iLIS.SignThueXMLApp.pdb
+F:\VNPT\APP\APP\MySignApp\BIN\Vnpt.iLIS.SignThueXMLApp.exe.config
+F:\VNPT\APP\APP\MySignApp\BIN\Vnpt.iLIS.SignThueXMLApp.exe
+F:\VNPT\APP\APP\MySignApp\BIN\Vnpt.iLIS.SignThueXMLApp.pdb

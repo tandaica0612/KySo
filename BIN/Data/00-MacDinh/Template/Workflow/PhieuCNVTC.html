@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="page-container" style="page-break-inside: avoid; margin: 10px;">
+        <div id="header">
+            <table style="width: 100%; text-align: center;">
+                <tbody>
+                    <tr>
+                        <td style="width: 37%;">
+                            <table style="border-collapse: collapse; width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 100%;"><strong>VĂN PH&Ograve;NG ĐĂNG K&Yacute;</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 100%; "><strong style="text-transform: uppercase;">ĐẤT ĐAI @TenTinh_TrimStart</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 100%;"><strong style="text-transform: uppercase;">(@SENDER_NAME)</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td style="width: 63%;">
+                            <table style="border-collapse: collapse; width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 100%;"><strong>CỘNG H&Ograve;A X&Atilde; HỘI CHỦ NGHĨA VIỆT NAM</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 100%;">Độc lập - Tự do - Hạnh ph&uacute;c</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 100%;">
+                                            <table style="border-collapse: collapse; width: 100%;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="width: 33.3333%;">&nbsp;</td>
+                                                        <td style="width: 33.3333%;"><hr /></td>
+                                                        <td style="width: 33.3333%;">&nbsp;</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Số: <span>@SO_PHIEU</span>/PCTTĐC</td>
+                        <td><em>@TenHuyen_TrimStart, ngày @NGAY_DUYET_Ngay tháng @NGAY_DUYET_Thang năm @NGAY_DUYET_Nam</em></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="title">
+            <table style="width: 100%; text-align: center;margin:10px 0px 10px 0px;">
+                <tbody>
+                    <tr><td><strong>PHIẾU CHUYỂN THÔNG TIN ĐỂ XÁC ĐỊNH NGHĨA TÀI CHÍNH VỀ ĐẤT ĐAI</strong></td></tr>
+                    <tr><td><strong>Kính gửi:</strong><span style="text-transform: uppercase;"> @RECEIVER_NAME</span></td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="content">
+            <table style="width: 100%;">
+                <tbody>
+                    <tr style="width: 100%;">
+                        <td style="border: 1px solid black; width: 100%;">
+                            <table style="width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td style="border-bottom: 1px solid black;"><span style="font-weight: bold;">I. TH&Ocirc;NG TIN CHUNG VỀ NGƯỜI SỬ DỤNG ĐẤT, MẶT NƯỚC, CHỦ SỞ HỮU T&Agrave;I SẢN GẮN LIỀN VỚI ĐẤT</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.1. T&ecirc;n<sup>(1)</sup>: <span style="font-weight: bold;">@HoTenChu</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.2. Địa chỉ<sup>(2)</sup>: <span style="font-weight: bold;">@DiaChiChu</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.3. Số điện thoại li&ecirc;n hệ: ..............................................; Email (nếu c&oacute;) ..........................;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.4. M&atilde; số thuế nếu c&oacute;: .......................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.5. Giấy tờ nh&acirc;n th&acirc;n/ph&aacute;p nh&acirc;n<sup>(3)</sup>:&nbsp; <strong>Sinh năm: @NamSinhChu,  số @LoaiGiayToChu: @SoGiayToChu, ngày cấp: @NgayCapGiayToChu, nơi cấp: @NoiCapGiayToChu</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.6. Loại thủ tục cần x&aacute;c định nghĩa vụ t&agrave;i ch&iacute;nh<sup>(4)</sup>: <strong>@TenLoaiHoSo</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table style="width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td style="border-bottom: 1px solid black; border-top: 1px solid black;"><span style="font-weight: bold;"> II. TH&Ocirc;NG TIN VỀ ĐẤT V&Agrave; T&Agrave;I SẢN GẮN LIỀN VỚI ĐẤT </span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>2.1. Th&ocirc;ng tin về đất&nbsp; </strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.1.1. Thửa đất số: <strong>@SoThuTuThua</strong>&nbsp; ; Tờ bản đồ số: <strong>@SoHieuToBanDo</strong> &nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.1.2. Địa chỉ tại<sup>(3)</sup>:&nbsp;<span style="font-weight: bold;">@DiaChiThua</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.1.3. Vị tr&iacute; theo Bảng gi&aacute; đất: (Quyết định số @SoGiayToBangGiaDat ngày @NgayGiayToBangGiaDat của @CoQuanBanHanhGiayToBangGiaDat)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table style="border-collapse: collapse; width: 100%;" border="1">
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="width: 10%; text-align: center;">Loại đất</td>
+                                                        <td style="width: 20%; text-align: center;">Phạm vi</td>
+                                                        <td style="width: 20%; text-align: center;">Vị tr&iacute;</td>
+                                                        <td style="width: 10%; text-align: center;">Diện t&iacute;ch</td>
+                                                        <td style="width: 40%; text-align: center;">Loại đường</td>
+                                                    </tr>
+                                                    @foreach(ChiTietGiaDatTheoBangGia)
+                                                    @{
+                                                    <tr>
+                                                        <td style="width: 10%; text-align: center;">@MaLoaiDat</td>
+                                                        <td style="width: 20%; text-align: left;">@TenPhamVi</td>
+                                                        <td style="width: 20%;text-align: left;">@TenViTri</td>
+                                                        <td style="width: 10%; text-align: right;">@DienTich</td>
+                                                        <td style="width: 40%;"><span>@TenDuong</span>/<span>@TenDoanDuong</span></td>
+                                                    </tr>
+                                                    }@
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.1.4. Diện t&iacute;ch thửa đất: <strong><span>@DienTichThua</span>m&sup2;</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Diện t&iacute;ch sử dụng chung: <span>@DienTichThuaSuDungChung</span>m&sup2;&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Diện t&iacute;ch sử dụng ri&ecirc;ng: <span>@DienTichThuaSuDungRieng</span>m&sup2;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Diện t&iacute;ch phải nộp tiền sử dụng đất/tiền thu&ecirc; đất: ..................................m&sup2;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Diện t&iacute;ch kh&ocirc;ng phải nộp tiền sử dụng đất/tiền thu&ecirc; đất: .......................m&sup2;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Diện t&iacute;ch đất trong hạn mức: .................m&sup2;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Diện t&iacute;ch đất ngo&agrave;i hạn mức: .................m&sup2;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Diện t&iacute;ch chuyển mục đ&iacute;ch sử dụng đất: ................................................m&sup2;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.1.5. Nguồn gốc sử dụng đất: <strong>@TenNguonGocSuDungDatGhep</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.1.6. Mục đ&iacute;ch sử dụng đất<sup>(7)</sup>: <strong>@MaMucDichSuDungGhep</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mục đ&iacute;ch sử dụng đất trước khi chuyển mục đ&iacute;ch: .............................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.1.7. Thời hạn sử dụng đất:<strong>@MaThoiHanSuDungDatGhep</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Ổn định l&acirc;u d&agrave;i ⬜</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- C&oacute; thời hạn: ........................................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Gia hạn: ...............................năm. Từ ng&agrave;y ............................ đến ng&agrave;y: ..........................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.1.8. Thời điểm bắt đầu sử dụng đất từ ng&agrave;y:&nbsp;.....................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.1.9. Chuyển h&igrave;nh thức sử dụng đất<sup>(8)</sup>:</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- H&igrave;nh thức đang sử dụng: ....................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- H&igrave;nh thức sau khi chuyển: .................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.1.10. Gi&aacute; đất:</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Gi&aacute; đất cụ thể<sup>(9)</sup>:..................................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Gi&aacute; đất tr&uacute;ng đấu gi&aacute;:..........................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Gi&aacute; đất trước khi chuyển mục đ&iacute;ch sử dụng đất<sup>(10)</sup>: ...........................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.1.11. Giấy tờ về quyền sử dụng đất<sup>(11)</sup>: ..............................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>2.2. Th&ocirc;ng tin về nhà ở, công trình xây dựng khác</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.2.1. Loại nhà ở, công trình:.............................; cấp hạng nhà ở, công trình:.......................;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.2.2. Diện tích xây dựng:.......................................m&sup2;;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.2.3. Diện tích sàn xây dựng:.................................m&sup2;;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.2.4. Diện tích sở hữu chung:.................................m&sup2;; Diện tích sở hữu riêng..................m&sup2;;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.2.5. Kết cấu:...........................................; Số tầng nổi:......................; Số tầng hầm .............;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.2.6. Nguồn gốc ......................................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.2.7. Năm hoàn công ...............................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.2.8. Thời hạn sở hữu đến ........................................................................................................</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="border-bottom: 1px solid black; border-top: 1px solid black;"><span style="font-weight: bold;"> III. TH&Ocirc;NG TIN CỤ THỂ X&Aacute;C ĐỊNH NGHĨA VỤ T&Agrave;I CH&Iacute;NH ĐỐI VỚI TRƯỜNG HỢP THU&Ecirc; ĐẤT X&Acirc;Y DỰNG C&Ocirc;NG TR&Igrave;NH NGẦM, THU&Ecirc; ĐẤT C&Oacute; MẶT NƯỚC, THU&Ecirc; MẶT NƯỚC</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>3.1. Đối với thu&ecirc; đất x&acirc;y dựng c&ocirc;ng tr&igrave;nh ngầm</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Diện t&iacute;ch thu&ecirc; đất x&acirc;y dựng c&ocirc;ng tr&igrave;nh ngầm: ................m&sup2;;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Gi&aacute; đất cụ thể t&iacute;nh tiền thu&ecirc; đất của phần diện t&iacute;ch đất x&acirc;y dựng c&ocirc;ng tr&igrave;nh ngầm<sup>(12)</sup>: .......</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span style="float: left;"><strong>3.2. Đối với thu&ecirc; đất c&oacute; mặt nước</strong></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Diện t&iacute;ch đất: ..........................m&sup2;;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Diện t&iacute;ch mặt nước: ................m&sup2;;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gi&aacute; đất cụ thể t&iacute;nh tiền thu&ecirc; đất của phần diện t&iacute;ch đất<sup>(3)</sup>: ......................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span style="float: left;"><strong>3.3. Đối với thu&ecirc; mặt nước<br /></strong></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>a) Vị tr&iacute; mặt nước:.....................................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>b) Diện t&iacute;ch mặt nước thu&ecirc;: ..................................m&sup2;;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>c) Mục đ&iacute;ch sử dụng mặt nước: ............................m&sup2;;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>d) Thời hạn thu&ecirc; mặt nước: .......................năm. Từ ng&agrave;y ..................... đến ng&agrave;y ..................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>đ) H&igrave;nh thức thu&ecirc; mặt nước: Trả tiền thu&ecirc; h&agrave;ng năm ⬜ Trả tiền thu&ecirc; một lần ⬜&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="border-bottom: 1px solid black; border-top: 1px solid black;"><span style="font-weight: bold;"> IV. TH&Ocirc;NG TIN VỀ ĐĂNG K&Yacute; BIẾN ĐỘNG, GHI NỢ, ƯU Đ&Atilde;I VỀ NGHĨA VỤ T&Agrave;I CH&Iacute;NH V&Agrave; C&Aacute;C KHOẢN ĐƯỢC TRỪ V&Agrave;O TIỀN SỬ DỤNG ĐẤT, TIỀN THU&Ecirc; ĐẤT (nếu c&oacute;)</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span><strong>4.1. Đối với trường hợp đăng k&yacute; bổ sung t&agrave;i sản gắn liền với đất v&agrave; chuyển đổi, chuyển nhượng, thừa kế, tặng cho quyền sử dụng đất, t&agrave;i sản gắn liền với đất (đăng k&yacute; biến động)<br /></strong></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4.1.1. Loại biến động:..................................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4.1.2. Loại t&agrave;i sản biến động:......................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span><strong>4.2. Ghi nợ nghĩa vụ t&agrave;i ch&iacute;nh (tiền sử dụng đất, lệ ph&iacute; trước bạ)<br /></strong></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Đối tượng ghi nợ: ......................................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Loại nghĩa vụ được ghi nợ: .......................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span><strong>4.3. Miễn, giảm nghĩa vụ t&agrave;i ch&iacute;nh<br /></strong></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Đối tượng được miễn, giảm: ......................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Loại nghĩa vụ được miễn, giảm: .................................................................................................</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span><strong>4.4. C&aacute;c khoản được trừ v&agrave;o tiền sử dụng đất, tiền thu&ecirc; đất phải nộp<br /></strong></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>T&ecirc;n của khoản được trừ:................................................................................................................</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table style="width:100%;">
+                                <tbody>
+                                    <tr>
+                                        <td style="border-bottom: 1px solid black; border-top: 1px solid black; width:100%;"><span style="font-weight: bold;">V. NHỮNG GIẤY TỜ K&Egrave;M THEO<sup>(14)</sup>:</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            ........................................................................................................................................................
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>........................................................................................................................................................</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="footer">
+            <table style="width: 100%; text-align: center;">
+                <tbody>
+                    <tr>
+                        <td style="width: 63%;">
+                            <table style="border-collapse: collapse; width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 100%;"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td style="width: 37%;">
+                            <table style="border-collapse: collapse; width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 100%;"><strong>GIÁM ĐỐC</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 100%; "><em>(Ký, ghi rõ họ tên, đóng dấu)</em></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><sub><span>Lập bởi @NguoiLap</span> <span>Thời điểm lập @NgayLap</span></sub></td>
+                        <td style="width: 100%;"><strong>@NGUOI_DUYET</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
