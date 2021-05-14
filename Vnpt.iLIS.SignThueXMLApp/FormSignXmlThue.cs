@@ -13,8 +13,8 @@ namespace Vnpt.iLIS.SignThueXMLApp
 {
     public partial class FormSignXmlThue : Form
     {
-        private string _bearerToken = "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE2MjAyMDUzOTUsImV4cCI6MTYyMDIwODk5NSwiaXNzIjoiaHR0cDovLzEwLjE1OS4yMS4yMTE6NTAwNiIsImF1ZCI6WyJodHRwOi8vMTAuMTU5LjIxLjIxMTo1MDA2L3Jlc291cmNlcyIsImF1dGhvcml6ZS12aWxpcy1hcGkiXSwiY2xpZW50X2lkIjoidmlsaXMtY2xpZW50LWNvZGUiLCJzdWIiOiIyYTU3M2Q5Yi1mYTJkLTQ0MTAtOGY5NS1iYjIxN2I0YzgzNDQiLCJhdXRoX3RpbWUiOjE2MjAyMDUzOTQsImlkcCI6ImxvY2FsIiwiQXNwTmV0LklkZW50aXR5LlNlY3VyaXR5U3RhbXAiOiJEWFhWWEpMVlo2REdCNk5ZWEdLQkYyQlFFQ0JCQ01RSyIsInByb2ZpbGUiOiJ1c2VyIiwicm9sZSI6WyJVc2VyIiwidXNlciIsImRhdGFFdmVudFJlY29yZHMudXNlciIsImRhdGFFdmVudFJlY29yZHMiLCJzZWN1cmVkRmlsZXMudXNlciIsInNlY3VyZWRGaWxlcyJdLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ1c2VyIiwibmFtZSI6InVzZXIiLCJlbWFpbCI6ImFiYzEyM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInBob25lX251bWJlciI6IjExMTExMTExMTEyIiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjpmYWxzZSwiZ2l2ZW5fbmFtZSI6InVzZXIiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiYXV0aG9yaXplLXZpbGlzLWFwaSIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJwd2QiXX0.duHBZSYbSoHsowRhdhLqxIGyz0Uhw06NO3WQRD5ryN0cx7KEq5ohr8IHtzY4ppgwrtY5jVrXLzSCs3kQPZKFWnJj2UxkJYIu7ouzlQvGBhqqm4bdkWLfoq8DN03MPAinXrwh6suv6kcPzOct9y-fxBU3L8jcn-taq9BFjQvqMHW7L1JLW-Jl5tCQX-leQ9M96TxyzZ7XIeJNjVGw-5dqlb6iEeyxaKDr2ZrcMyQ_G9zxpZVlXROCoqAFDdFbWqsp9mHmCBAemlcnJJAh8zWpN5XWqks_C7Qf5JhX6MGc6p6PpvbFbf9tfks3i4y40_wDVatiFnjvu9YoipieNpq3Nw";
-        private string _id = "36E47CEEF6374238B94FECC2B79729E9";
+        private string _bearerToken = "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE2MjA5NjI2NzIsImV4cCI6MTYyMDk2NjI3MiwiaXNzIjoiaHR0cHM6Ly9pbGlzLXNzby52bnB0LnZuIiwiYXVkIjpbImh0dHBzOi8vaWxpcy1zc28udm5wdC52bi9yZXNvdXJjZXMiLCJhdXRob3JpemUtdmlsaXMtYXBpIl0sImNsaWVudF9pZCI6InZpbGlzLWNsaWVudC1jb2RlIiwic3ViIjoiNDEyZWI5YjQtNzczNS00OGQ1LTg1Y2QtNTQ1MjdkMWM3Zjg3IiwiYXV0aF90aW1lIjoxNjIwOTU1NTQxLCJpZHAiOiJsb2NhbCIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiTE5aR0tDUkNKU0lGVkFEVU1OR0xDSTc2WFJESTI2T1MiLCJwcm9maWxlIjoidXNlciIsInJvbGUiOlsiVXNlciIsInVzZXIiLCJkYXRhRXZlbnRSZWNvcmRzLnVzZXIiLCJkYXRhRXZlbnRSZWNvcmRzIiwic2VjdXJlZEZpbGVzLnVzZXIiLCJzZWN1cmVkRmlsZXMiXSwicHJlZmVycmVkX3VzZXJuYW1lIjoidXNlciIsIm5hbWUiOiJ1c2VyIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicGhvbmVfbnVtYmVyIjoiMDY4NzkxMzM1NDUiLCJwaG9uZV9udW1iZXJfdmVyaWZpZWQiOmZhbHNlLCJnaXZlbl9uYW1lIjoiVHLhuqduIFbEg24gw5p0Iiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImF1dGhvcml6ZS12aWxpcy1hcGkiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.nPxSUJUBrknXZ6DCDcq0XqzRM1smhZK2axYLF1F2upVSGVSxnCt4NoxsAcFWGyWzrCZEzbfLz_YfZMaIGQ3ilXt9mg5-LVND7MY22k0lOSDLMXPizCgJiBhx_dtAaAf5YCRepzk8hcUCEd_Q05JXM__7mvPzqRVEudVJZ2V262stl21a5E1coJnSpyfXw5m8jOyc2DMeK7Ir9OrhMLeX5Utxz4FmXm-e8LWEyHtP8PxdLZLAfzTQupX2j6qWI1DztvMUzeMysBz-_za3QVsvSPZybXhlr2YyvrcT5Ld9QIpt5vLKiwexkGkDbFWjFkMuFSK9u9DFkr33_KmSXjcWdQ";
+        private string _id = "0814B2D1FE18435590FE47587CBA4775";
         private string _xmlThue;
         public FormSignXmlThue()
         {
@@ -41,7 +41,8 @@ namespace Vnpt.iLIS.SignThueXMLApp
                 if (resultSign)
                 {
                     // kiểm tra xem có xem lại chữ ký hay không
-                    if (MessageBox.Show(string.Format("Ký số thành công, bạn có muốn xem lại chữ ký không. Nếu có vui lòng ấn YES và ký lại một lần nữa?"), "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk) == DialogResult.Yes)
+                    //if (MessageBox.Show(string.Format("Ký số"), "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk) == DialogResult.Yes)
+                    if (MessageBox.Show(string.Format("Ký số thành công! Xem lại tài liệu đã ký?"), "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
                     {
                         var pdfFilePath = System.IO.Path.Combine(Vnpt.iLIS.Common.Controls.CommonMain.CommonGlobalVariables.RecentFolder.TemporaryFolderRoot, "pdfThue.pdf");
                         var pdfSignedFilePath = System.IO.Path.Combine(Vnpt.iLIS.Common.Controls.CommonMain.CommonGlobalVariables.RecentFolder.TemporaryFolderRoot, "SignPdfThue.pdf");

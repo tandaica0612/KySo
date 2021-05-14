@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web;
 using System.Windows.Forms;
+using Microsoft.Win32;
+using Vnpt.iLIS.SignThueXMLApp.Helpers;
 
 namespace Vnpt.iLIS.SignThueXMLApp
 {
@@ -16,7 +19,7 @@ namespace Vnpt.iLIS.SignThueXMLApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
+            //RegisterMyProtocol();
 
             Vnpt.iLIS.Common.Controls.CommonMain.InitGlobalVariables();
             Vnpt.iLIS.Common.Controls.CommonMain.CommonGlobalVariables.ModuleKey = "Vnpt.iLIS.SignThueXMLApp";
@@ -31,47 +34,63 @@ namespace Vnpt.iLIS.SignThueXMLApp
             if (!System.IO.Directory.Exists(Vnpt.iLIS.Common.Controls.CommonMain.CommonGlobalVariables.RecentFolder.TemporaryFolderRoot))
                 System.IO.Directory.CreateDirectory(Vnpt.iLIS.Common.Controls.CommonMain.CommonGlobalVariables.RecentFolder.TemporaryFolderRoot);
 
-            //var args = "";
-            //if (Environment.GetCommandLineArgs().Length > 1)
-            //    args = Environment.GetCommandLineArgs()[1];
-            //var lstParam = GetParamFromUrl(args);
-            ////foreach (var param in lstParam)
-            ////{
-            ////    MessageBox.Show(param);
-            ////}
-            //if (lstParam != null && lstParam.Count == 2)
-            //{
-            //    Application.Run(new FormSignXmlThue(lstParam[0], lstParam[1]));
-            //}
-            //else
-            //{
-            //    MessageBox.Show($"URL không đúng định dạng, vui lòng kiểm tra lại");
-            //    System.Windows.Forms.Application.Exit();
-            //}
+            MessageBoxManager.Yes = "Đồng ý";
+            MessageBoxManager.No = "Không";
+            MessageBoxManager.Register();
+
+            string[] args = Environment.GetCommandLineArgs();
+
+            var lstParam = GetParamFromUrl(args);
+            if (lstParam != null && lstParam.Count == 2)
+            {
+                Application.Run(new FormSignXmlThue(lstParam[0], lstParam[1]));
+            }
+            else
+            {
+                MessageBox.Show($"URL không đúng định dạng, vui lòng kiểm tra lại");
+                System.Windows.Forms.Application.Exit();
+            }
             Application.Run(new FormSignXmlThue());
         }
-        public static List<string> GetParamFromUrl(string url)
+        public static List<string> GetParamFromUrl(string[] args)
         {
-            if (url != null)
+            if (args != null)
             {
-                var tmp = url.Split(':');
-                if (tmp.Length == 2)
-                {
-                    var paramss = tmp[1].Split('&');
-                    var lstResult = new List<string>();
-                    foreach (var param in paramss)
-                    {
-                        lstResult.Add(param);
-                    }
-                    return lstResult;
-                }
-                else
-                {
-                    return null;
-                }
+                var lstResult = new List<string>();
+                args[1] = args[1].Replace("kyso://", string.Empty);
+                args[1] = System.Uri.UnescapeDataString(args[1]);
+                args[1] = (args[1].EndsWith("/")) ? args[1].TrimEnd('/') : args[1];
+                Console.WriteLine(args[1]);
+                var query = HttpUtility.ParseQueryString(args[1]);
+                Console.WriteLine(query);
+
+                var token = query.Get("token");
+                var idbiendong = query.Get("idbiendong");
+                lstResult.Add(token);
+                lstResult.Add(idbiendong);
+                return lstResult;
             }
-            else return null;
+            return null;
+        }
+
+        static void RegisterMyProtocol()  //myAppPath = full path to your application
+        {
+            RegistryKey key = Registry.ClassesRoot.OpenSubKey("kyso");  
+
+            if (key == null)  //if the protocol is not registered yet...we register it
+            {
+                key = Registry.ClassesRoot.CreateSubKey("kyso");
+                key.SetValue(string.Empty, "URL: kyso Protocol");
+                key.SetValue("URL Protocol", string.Empty);
+
+                key = key.CreateSubKey(@"shell\open\command");
+                //key.SetValue(string.Empty, myAppPath + " " + "%1");
+                key.SetValue("", Environment.GetCommandLineArgs()[0].Replace("dll", "exe") + " " + "%1");
+                //%1 represents the argument - this tells windows to open this program with an argument / parameter
+            }
+
+            key.Close();
         }
     }
-    
+
 }
